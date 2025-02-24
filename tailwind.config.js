@@ -6,11 +6,12 @@ export default {
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './storage/framework/views/*.php',
         './resources/**/*.blade.php',
-        './resources/**/*.js',
-        './resources/**/*.vue',
     ],
     theme: {
         extend: {
+            font: {
+                sans: ['Segoe UI', 'sans-serif'],
+            },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
